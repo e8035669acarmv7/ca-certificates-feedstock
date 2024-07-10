@@ -23,6 +23,5 @@ echo "Who am I"
 anaconda -v whoami
 
 echo "Start build conda package"
-conda mambabuild -m "${CONFIG_FILE}" "${FEEDSTOCK_ROOT}"
-# conda build -m "${CONFIG_FILE}" "${FEEDSTOCK_ROOT}"
+conda build -m "${CONFIG_FILE}" "${FEEDSTOCK_ROOT}"
 
